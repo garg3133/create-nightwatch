@@ -1,6 +1,6 @@
 {
-  "name": "create-nightwatch",
-  "version": "1.1.2",
+  "name": "create-nightwatch-test",
+  "version": "1.1.3",
   "description": "A single-command tool to setup Nightwatch.js",
   "main": "index.js",
   "bin": {
@@ -9,7 +9,6 @@
   "scripts": {
     "build": "tsc",
     "create-nightwatch": "tsc && node index.js",
-    "prepublish": "npm run build",
     "test:unit": "npx nightwatch tests/unit_tests",
     "test:e2e": "npx nightwatch tests/e2e_tests"
   },
